@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,100&display=swap');
+
+.headerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0.7rem 2rem; */
+  width: 100%;
+  height: 55px;
+  margin-bottom: 1rem;
+  background-color: #ffcc01;
+}
+
+.postgal {
+  height: 50px;
+  width: 50px;
+  padding-right: 15px;
+}
+
+.title {
+  font-size: 45px;
+  font-family: 'Work Sans', sans-serif;
+}
