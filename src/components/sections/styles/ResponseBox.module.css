@@ -1,4 +1,10 @@
 .jsonObjContainer {
   padding-top: 30px;
-  width: 100%;
+  width: 50%;
+}
+
+.mainBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
