@@ -8,8 +8,8 @@ export default class PostGalContainer extends Component {
     return (
       <div>
         <Header />
-        {/* <RequestBox />
-        <ResponseBox /> */}
+        <RequestBox />
+        {/* <ResponseBox /> */}
       </div>
     );
   }
