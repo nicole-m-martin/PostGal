@@ -72,8 +72,8 @@ function RequestBox({ api, method }) {
 }
 
 RequestBox.propTypes = {
-  api: PropTypes.string.isRequired,
-  method: PropTypes.string.isRequired,
+  // api: PropTypes.string.isRequired,
+  // method: PropTypes.string.isRequired,
 };
 
 export default RequestBox;

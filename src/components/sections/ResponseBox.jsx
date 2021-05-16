@@ -5,7 +5,7 @@ import style from './styles/ResponseBox.module.css';
 
 function ResponseBox({ json_object }) {
   return (
-    <main className={style.mainBox}>
+    <main aria-label="main" className={style.mainBox}>
       <section className={style.jsonObjContainer}>
         <ReactJson src={json_object} theme="hopscotch" />
       </section>
