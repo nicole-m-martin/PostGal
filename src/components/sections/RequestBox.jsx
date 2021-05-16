@@ -15,49 +15,56 @@ function RequestBox({ api, method }) {
           />
         </section>
         <section className={style.radioBtnsContainer}>
-          <label className={style.methodName} htmlFor="GET" defaultChecked>
+          <label className={style.methodName} htmlFor="get">
             GET
             <input
-              name="method"
-              id="GET"
-              value="GET"
               type="radio"
-              checked={method === 'GET'}
+              name="method"
+              id="get"
+              value="get"
+              checked={method === 'get'}
+              defaultChecked
             />
           </label>
-          <label className={style.methodName} htmlFor="PUT">
+          <label className={style.methodName} htmlFor="put">
             PUT
             <input
-              name="method"
-              id="PUT"
-              value="PUT"
               type="radio"
-              checked={method === 'PUT'}
+              name="method"
+              id="put"
+              value="put"
+              checked={method === 'put'}
             />
           </label>
-          <label className={style.methodName} htmlFor="POST">
+          <label className={style.methodName} htmlFor="post">
             POST
             <input
               name="method"
-              id="POST"
-              value="POST"
+              id="post"
+              value="post"
               type="radio"
-              checked={method === 'POST'}
+              checked={method === 'post'}
             />
           </label>
-          <label className={style.methodName} htmlFor="DELETE">
+          <label className={style.methodName} htmlFor="delete">
             DELETE
             <input
-              name="method"
-              id="DELETE"
-              value="DELETE"
               type="radio"
-              checked={method === 'DELETE'}
+              name="method"
+              id="delete"
+              value="delete"
+              checked={method === 'delete'}
             />
           </label>
           <button className={style.btn} type="submit">
             Go!
           </button>
+        </section>
+        <section className={style.textBoxContainer}>
+          <textarea
+            className={style.textArea}
+            placeholder="enter JSON here"
+          ></textarea>
         </section>
       </form>
     </main>

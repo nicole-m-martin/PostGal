@@ -9,7 +9,7 @@ export default class PostGalContainer extends Component {
       <div>
         <Header />
         <RequestBox />
-        {/* <ResponseBox /> */}
+        <ResponseBox />
       </div>
     );
   }
