@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,100&display=swap');
+
+.apiInput {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.mainSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.methodName {
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  border: 0.1em solid black;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
+  border-radius: 0.12em;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #ffcc01;
+}
+
+.textBoxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textArea {
+  margin-top: 15px;
+  display: flex;
+  align-self: center;
+}
